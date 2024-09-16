@@ -1,0 +1,36 @@
+seed: 42
+
+dataset:
+  train:
+    path: '' # '/path/to/womd/v_1_1_0/uncompressed/tf_example/training/training_tfexample.tfrecord@1000'
+    buffer: '' # '/path/to/womd/shelve_buffer.shelf
+
+  val:
+    path: '' # '/path/to/womd/v_1_1_0/uncompressed/tf_example/validation/validation_tfexample.tfrecord@150'
+    max_num_scenario: 200
+
+  val_king: # for evaluation of generated scenarios
+    path: '' # '/path/to/generated_king_scenario'
+        
+  max_num_objects: 32
+  max_num_rg_points: 20000
+  init_steps: 1
+
+dataloader:
+  batch_size: 256
+
+trainer:
+  max_epochs: 500
+  eval_every: 200
+
+checkpoint:
+  model_path: '' # /path/to/aim_bev_model_checkpoint.pth
+  optimizer_path: '' # /path/to/aim_bev_optimizer_model_checkpoint.pth
+  eval_only: False
+
+optimizer:
+  lr: 1e-3
+
+hydra:
+  run:
+    dir: '' # /path/to/hydra/output/${now:%Y-%m-%d_%H-%M-%S}

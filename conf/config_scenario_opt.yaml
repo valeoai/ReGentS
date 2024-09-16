@@ -1,0 +1,34 @@
+dataset:
+  path: # '/path/to/womd/v_1_1_0/uncompressed/tf_example/evaluation/evaluation_tfexample.tfrecord@1000'
+  max_num_objects: 32
+  max_num_rg_points: 20000
+
+env:
+  init_steps: 1
+
+planner:
+  checkpoint: # '/path/to/aim_bev_model_checkpoint.pth'
+
+optimizer:
+  main: 
+    lr: 1e-3
+
+method:
+  drivable_area_map_resolution: 1.0
+  type: 'regents' # or 'king'
+  max_steps: 500
+  scenario_id:
+    min: 0
+    max: 100
+  loss:
+    adv_col:
+      coeff: 5.0
+      threshold: 1.25
+    adv_dev:
+      coeff: 20.0
+      cropsize: 32
+
+hydra:
+  run:
+    dir: # /path/to/hydra/output/${method.name}_${method.type}/${now:%Y-%m-%d_%H-%M-%S}
+      
