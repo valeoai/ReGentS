@@ -5,14 +5,11 @@ The official repository of ReGentS. The work is accepted to [ECCV 2024 W-CODA wo
 > Abstract: Machine learning based autonomous driving systems often face challenges with safety-critical scenarios that are rare in real-world data, hindering their large-scale deployment. While increasing real-world training data coverage could address this issue, it is costly and dangerous. This work explores generating safety-critical driving scenarios by modifying complex real-world regular scenarios through trajectory optimization. We propose ReGentS, which stabilizes generated trajectories and introduces heuristics to avoid obvious collisions and optimization problems. Our approach addresses unrealistic diverging trajectories and unavoidable collision scenarios that are not useful for training robust planner. We also extend the scenario generation framework to handle real-world data with up to 32 agents. Additionally, by using a differentiable simulator, our approach simplifies gradient descent-based optimization involving a simulator, paving the way for future advancements.
 
 ```
-@misc{YinKZNC2024,
+@inproceedings{yin2024regents,
    title={ReGentS: Real-World Safety-Critical Driving Scenario Generation Made Stable}, 
    author={Yuan Yin and Pegah Khayatan and Éloi Zablocki and Alexandre Boulch and Matthieu Cord},
    year={2024},
-   eprint={2409.07830},
-   archivePrefix={arXiv},
-   primaryClass={cs.LG},
-   url={https://arxiv.org/abs/2409.07830}, 
+   booktitle={ECCV Workshop}
 }
 ```
 
