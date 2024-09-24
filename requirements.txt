@@ -2,3 +2,9 @@ tensorflow[and-cuda]==2.15.1
 jax
 optax
 git+https://github.com/waymo-research/waymax.git@main#egg=waymo-waymax
+torch
+torchvision
+hydra
+tqdm
+mediapy
+git+https://github.com/rdyro/torch2jax.git
