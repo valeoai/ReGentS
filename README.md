@@ -6,10 +6,11 @@ The official repository of ReGentS. The work is accepted to [ECCV 2024 W-CODA wo
 
 ```
 @inproceedings{yin2024regents,
-   title={ReGentS: Real-World Safety-Critical Driving Scenario Generation Made Stable}, 
+   title={{ReGentS}: Real-World Safety-Critical Driving Scenario Generation Made Stable}, 
    author={Yuan Yin and Pegah Khayatan and \'Eloi Zablocki and Alexandre Boulch and Matthieu Cord},
+   booktitle={ECCV 2024 Workshop on Multimodal Perception and Comprehension of Corner Cases in Autonomous Driving},
    year={2024},
-   booktitle={ECCV Workshop}
+   url={https://openreview.net/forum?id=dJqcdUgEdw}
 }
 ```
 
