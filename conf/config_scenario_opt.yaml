@@ -30,5 +30,5 @@ method:
 
 hydra:
   run:
-    dir: # /path/to/hydra/output/${method.name}_${method.type}/${now:%Y-%m-%d_%H-%M-%S}
+    dir: # /path/to/hydra/output/${method.type}/${now:%Y-%m-%d_%H-%M-%S}
       
