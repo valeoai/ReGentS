@@ -1,5 +1,5 @@
 tensorflow[and-cuda]
-jax
+jax[cuda12]
 optax
 git+https://github.com/waymo-research/waymax.git@main#egg=waymo-waymax
 torch
