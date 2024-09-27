@@ -1,5 +1,5 @@
 dataset:
-  path: # '/path/to/womd/v_1_1_0/uncompressed/tf_example/evaluation/evaluation_tfexample.tfrecord@1000'
+  path: # '/path/to/womd/v_1_1_0/uncompressed/tf_example/validation/validation_tfexample.tfrecord@150'
   max_num_objects: 32
   max_num_rg_points: 20000
 
