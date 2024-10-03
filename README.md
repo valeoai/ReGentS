@@ -29,7 +29,8 @@ We are required not to provide the trained ego planner with WOMD. Follow these s
 
 ### Python version
 
-The code is compatible with Python <=3.11. Follow the instructions below to create your conda environment for ReGentS.
+The code is compatible with Python <=3.11 on Linux servers. 
+Follow the instructions below to create your conda environment for ReGentS.
 
 ```
 conda create --name regents python=3.11
