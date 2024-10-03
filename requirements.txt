@@ -1,4 +1,4 @@
-tensorflow[and-cuda]
+tensorflow[and-cuda]==2.16.1
 jax[cuda12]
 optax
 git+https://github.com/waymo-research/waymax.git@main#egg=waymo-waymax

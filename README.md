@@ -27,6 +27,16 @@ We are required not to provide the trained ego planner with WOMD. Follow these s
 
 ## Notice
 
+### Python version
+
+The code is compatible with Python <=3.11. Follow the instructions below to create your conda environment for ReGentS.
+
+```
+conda create --name regents python=3.11
+conda activate regents
+pip install -U -r requirements.txt
+```
+
 ### Waymax
 
 This software was made using the Waymax Licensed Materials, provided by Waymo LLC under the Waymax License Agreement for Non-Commercial Use, available at https://github.com/waymo-research/waymax/blob/main/LICENSE, and your access and use of the Waymax Licensed Materials are governed by the terms and conditions contained therein.
