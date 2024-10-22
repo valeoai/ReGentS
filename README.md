@@ -23,11 +23,8 @@ We are required not to provide the trained ego planner with WOMD. Follow these s
 - Train the ego planner model with `train_agent.py`. The path to the downloaded WOMD training dataset can be specified in `config_aim_bev.yaml`
 - Import the trained model into the AIM-BEV ego agent configuration in `config_scenario_opt.yaml`. The path to the downloaded WOMD evaluation dataset can be also specified there.
 - Launch ReGentS using `generate_scenario.py`
-
-
-## Notice
-
-### Python version
+- 
+### Requirement installation
 
 The code is compatible with Python <=3.11 on Linux servers. 
 Follow the instructions below to create your conda environment for ReGentS.
@@ -38,12 +35,12 @@ conda activate regents
 pip install -U -r requirements.txt
 ```
 
-### Waymax
+## License
 
-This software was made using the Waymax Licensed Materials, provided by Waymo LLC under the Waymax License Agreement for Non-Commercial Use, available at https://github.com/waymo-research/waymax/blob/main/LICENSE, and your access and use of the Waymax Licensed Materials are governed by the terms and conditions contained therein.
+This code is distributed under MPL 2.0 License (see [LICENSE](/LICENSE)). Please note that the portions of code developed with Waymax cannot be used for commercial purposes.
 
-### KING
+## Notice
 
-This software uses part of the code from the AIM-BEV model, available at https://github.com/autonomousvision/king, for the ego driving agent to ensure consistency.
+See [NOTICE](/NOTICE).
 
 
