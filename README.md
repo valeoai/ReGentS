@@ -41,14 +41,15 @@ This code is distributed under MPL 2.0 License (see [LICENSE](/LICENSE)). Please
 
 ## Notice
 
-## Notice for MPL 2.0 Licence 
+### Notice for MPL 2.0 Licence 
+
 See [NOTICE](/NOTICE).
 
-## Notice for Waymax
+### Notice for Waymax
 
 This software was made using the Waymax Licensed Materials, provided by Waymo LLC under the Waymax License Agreement for Non-Commercial Use, available at https://github.com/waymo-research/waymax/blob/main/LICENSE, and your access and use of the Waymax Licensed Materials are governed by the terms and conditions contained therein.
 
-## Notice for KING
+### Notice for KING
 
 This software uses part of the code from the AIM-BEV model, available at https://github.com/autonomousvision/king, for the ego driving agent to ensure consistency.
 
