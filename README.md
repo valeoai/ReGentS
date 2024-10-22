@@ -37,20 +37,27 @@ pip install -U -r requirements.txt
 
 ## License
 
-This code is distributed under MPL 2.0 License (see [LICENSE](/LICENSE)). Please note that the portions of code developed with Waymax cannot be used for commercial purposes.
+This code is distributed under Mozilla Public License 2.0 License (see [LICENSE](/LICENSE)). Please note that the portions of code developed with Waymax cannot be used for commercial purposes.
 
 ## Notice
 
-### Notice for MPL 2.0 Licence 
-
-See [NOTICE](/NOTICE).
-
-### Notice for Waymax
+### Waymax
 
 This software was made using the Waymax Licensed Materials, provided by Waymo LLC under the Waymax License Agreement for Non-Commercial Use, available at https://github.com/waymo-research/waymax/blob/main/LICENSE, and your access and use of the Waymax Licensed Materials are governed by the terms and conditions contained therein.
 
-### Notice for KING
+### KING
 
-This software uses part of the code from the AIM-BEV model, available at https://github.com/autonomousvision/king, for the ego driving agent to ensure consistency.
+This software uses part of the code from the AIM-BEV model, available at https://github.com/autonomousvision/king, for the ego driving agent to ensure consistency. KING is distributed under MIT Licence, available at https://github.com/autonomousvision/king/blob/main/LICENSE.
+
+### License information regarding the other used packages
+- google/jax: Apache-2.0
+- google/mediapy: Apache-2.0
+- hydra-core: MIT License
+- optax: Apache-2.0
+- pytorch: BSD-3-Clause
+- tensorflow: Apache-2.0
+- torchvision: BSD-3-Clause
+- tqdm: MIT License and Mozilla Public License 2.0
+- wrap-torch2jax: MIT License
 
 
